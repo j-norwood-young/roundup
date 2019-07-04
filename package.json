@@ -1,6 +1,6 @@
 {
   "name": "roundup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rounds up to a specific unit like a spreadsheet ROUNDUP function",
   "main": "roundup.js",
   "scripts": {
