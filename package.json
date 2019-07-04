@@ -1,0 +1,25 @@
+{
+  "name": "roundup",
+  "version": "1.0.0",
+  "description": "Rounds up to a specific unit like a spreadsheet ROUNDUP function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-norwood-young/roundup.git"
+  },
+  "keywords": [
+    "roundup",
+    "ceil",
+    "math",
+    "formula"
+  ],
+  "author": "Jason Norwood-Young <jason@10layer.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/j-norwood-young/roundup/issues"
+  },
+  "homepage": "https://github.com/j-norwood-young/roundup#readme"
+}
