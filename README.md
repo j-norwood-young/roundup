@@ -3,7 +3,7 @@ Rounds up to a specific unit like a spreadsheet ROUNDUP function
 
 # Installation
 
-npm i -S roundup
+`npm i -S roundup`
 
 # Usage
 
