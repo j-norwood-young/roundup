@@ -2,9 +2,9 @@
   "name": "roundup",
   "version": "1.0.0",
   "description": "Rounds up to a specific unit like a spreadsheet ROUNDUP function",
-  "main": "index.js",
+  "main": "roundup.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/j-norwood-young/roundup/issues"
   },
-  "homepage": "https://github.com/j-norwood-young/roundup#readme"
+  "homepage": "https://github.com/j-norwood-young/roundup#readme",
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
 }
