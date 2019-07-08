@@ -1,21 +1,17 @@
 const roundup = (num, units) => {
+    // Shift by units
+    let shifted = num * Math.pow(10, units);
+    // Ceil
+    let ceiled = Math.ceil(shifted);
+    // Unshift by units
+    let unshifted = 0;
     if (units < -1) {
-        // Shift by units
-        let shifted = num * Math.pow(10, units);
-        // Ceil
-        let ceiled = Math.ceil(shifted);
         // Unshift by units
-        let unshifted = ceiled * Math.pow(10, Math.abs(units));
-        return unshifted;
+        unshifted = ceiled * Math.pow(10, Math.abs(units));
     } else {
-        // Shift by units
-        let shifted = num * Math.pow(10, units);
-        // Ceil
-        let ceiled = Math.ceil(shifted);
-        // Unshift by units
-        let unshifted = ceiled / Math.pow(10, units);
-        return unshifted;
+        unshifted = ceiled / Math.pow(10, units);
     }
+    return unshifted;
 }
 
 module.exports = roundup;
